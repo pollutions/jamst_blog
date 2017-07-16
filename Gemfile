@@ -18,7 +18,7 @@ gem 'sprockets', '4.0.0.beta4'
 gem 'uglifier', '>= 1.3.0'
 gem 'jquery-rails'
 # gem 'rails-ujs'
-gem 'asset_sync', github: 'whmall/asset_sync'
+# gem 'asset_sync', github: 'whmall/asset_sync'
 gem 'non-stupid-digest-assets'
 gem 'turbolinks'
 
@@ -51,10 +51,11 @@ gem 'carrierwave'
 gem 'remotipart', '~> 1.2'
 gem 'sitemap_generator'
 gem 'spreadsheet'
-gem 'roo', require: false, github: 'whmall/roo'
+gem 'roo'#, require: false, github: 'whmall/roo'
 gem 'whenever', :require => false
 gem 'kaminari', github: 'amatsuda/kaminari'
-gem 'default_where', github: 'whmall/default_where'
+#gem 'default_where', github: 'whmall/default_where'
+gem 'default_where', github: 'qinmingyuan/default_where'
 gem 'csv-importer', github: 'xor3/csv-importer'
 gem 'roo-xls', github: 'roo-rb/roo-xls'
 gem 'cocoon'
@@ -62,8 +63,8 @@ gem 'savon'
 gem 'seventeen_mon'
 
 # Engines
-gem 'the_notify', github: 'whmall/the_notify', tag: 'v0.7.1'
-#gem 'rails_log', github: 'qinmingyuan/rails_log', tag: 'v2.0'
+gem 'the_notify', github: 'yigexiangfa/the_notify' #, tag: 'v0.7.1'
+# gem 'rails_log', github: 'qinmingyuan/rails_log', tag: 'v2.0'
 gem 'rails_com', github: 'qinmingyuan/rails_com', tag: 'v0.7.3'  # 通用的helper，model等方法
 gem 'default_form', github: 'qinmingyuan/default_form', tag: 'v2.4'
 
