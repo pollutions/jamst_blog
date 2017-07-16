@@ -55,7 +55,7 @@ gem 'roo'#, require: false, github: 'whmall/roo'
 gem 'whenever', :require => false
 gem 'kaminari', github: 'amatsuda/kaminari'
 #gem 'default_where', github: 'whmall/default_where'
-gem 'default_where',github:'qinmingyuan/default_where'
+gem 'default_where', github: 'qinmingyuan/default_where'
 gem 'csv-importer', github: 'xor3/csv-importer'
 gem 'roo-xls', github: 'roo-rb/roo-xls'
 gem 'cocoon'
@@ -63,7 +63,7 @@ gem 'savon'
 gem 'seventeen_mon'
 
 # Engines
-gem 'the_notify', github: 'yigexiangfa/the_notify'#, tag: 'v0.7.1'
+gem 'the_notify', github: 'yigexiangfa/the_notify' #, tag: 'v0.7.1'
 # gem 'rails_log', github: 'qinmingyuan/rails_log', tag: 'v2.0'
 gem 'rails_com', github: 'qinmingyuan/rails_com', tag: 'v0.7.3'  # 通用的helper，model等方法
 gem 'default_form', github: 'qinmingyuan/default_form', tag: 'v2.4'
