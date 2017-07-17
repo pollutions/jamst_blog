@@ -1,14 +1,9 @@
-source 'https://rubygems.org 
-'
+source 'https://rubygems.org'
 git_source(:github) do |repo_name|
   repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?('/')
-  "https://github.com/#{repo_name}.git 
-
-"
+  "https://github.com/#{repo_name}.git"
 end
-# source 'https://gems.ruby-china.org 
-
-'
+# source 'https://gems.ruby-china.org'
 
 gem 'rails', '>= 5.0.0.rc2', '< 5.1'
 gem 'puma', '3.6.2'
@@ -28,9 +23,7 @@ gem 'jquery-rails'
 gem 'turbolinks'
 
 # Login & Authority
-gem 'devise', git: 'https://github.com/plataformatec/devise.git 
-
-'
+gem 'devise', git: 'https://github.com/plataformatec/devise.git'
 gem 'cancancan'
 gem 'rolify'
 
