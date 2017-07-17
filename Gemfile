@@ -51,7 +51,7 @@ gem 'carrierwave'
 gem 'remotipart', '~> 1.2'
 gem 'sitemap_generator'
 gem 'spreadsheet'
-gem 'roo'#, require: false, github: 'whmall/roo'
+#gem 'roo'#, require: false, github: 'whmall/roo'
 gem 'whenever', :require => false
 gem 'kaminari', github: 'amatsuda/kaminari'
 #gem 'default_where', github: 'whmall/default_where'
